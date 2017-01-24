@@ -59,13 +59,6 @@ input[type="button"].button-primary:focus {
   background-color: $link-hover-color;
   border-color: $link-hover-color; }
 
-.hero-fold-hack {
-  margin-top: 20vh;
-  @include respond-to("small") {
-    margin-top: 5vh;
-  }
-}
-
 button.main-cta {
  font-size: $medium-value;
  padding: 0 10px;
