@@ -1,0 +1,21 @@
+html {
+  @include respond-to("medium") {
+    font-size: 52.5%;
+  }
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  padding: 30px 30px;
+  @include respond-to("tiny") {
+    padding: 10px 10px;
+  }
+}
+
+.separator {
+  border: solid 5px;
+  border-radius: 15px;
+  margin: auto;
+  color: lightgray;
+}

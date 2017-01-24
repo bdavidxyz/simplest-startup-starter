@@ -1,0 +1,46 @@
+.faq-section {
+}
+
+
+.faq-wrapper {
+    width: 95%;
+    margin: 3em auto;
+}
+
+.faq-masonry {
+    padding: 0;
+    column-gap: $large-value;
+}
+
+.faq-masonry-item {
+    background: grey;
+    display: inline-block;
+    background: #fff;
+    // margin: 1.5em 0 0 0;
+    // margin: 0 0 1.5em 0;
+}
+
+@media only screen and (min-width: 400px) {
+    .faq-masonry {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .faq-masonry {
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .faq-masonry {
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .faq-masonry {
+        column-count: 3;
+    }
+}
+

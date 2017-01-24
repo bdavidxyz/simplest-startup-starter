@@ -1,0 +1,45 @@
+{
+  "name": "simplest-startup-starter",
+  "version": "0.1.0",
+  "description": "A starter project for start-ups : a plain HTML, text-based landing page",
+  "main": "gulpfile.js",
+  "engines": {
+    "node": "~5.11.1",
+    "npm": "~3.8.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Boureau",
+  "license": "WTFPL",
+  "devDependencies": {
+    "browser-sync": "2.12.8",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-clean-css": "2.0.8",
+    "gulp-concat": "2.6.0",
+    "gulp-gh-pages": "0.5.4",
+    "gulp-html-extract": "0.1.0",
+    "gulp-minify-html": "1.0.6",
+    "gulp-notify": "2.2.0",
+    "gulp-rename": "1.2.2",
+    "gulp-replace": "0.5.4",
+    "gulp-sass": "2.3.1",
+    "gulp-uglify": "1.5.3",
+    "gulp-uncss": "1.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdavidxyz/simplest-startup-starter.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "js",
+    "browsersync",
+    "github",
+    "googlepagespeed"
+  ],
+  "homepage": "https://bdavidxyz.github.io/simplest-startup-starter/"
+}

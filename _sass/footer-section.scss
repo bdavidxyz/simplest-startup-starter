@@ -1,0 +1,12 @@
+.footer-section {
+  background-color: #F5F5F5;
+  font-family: $font-stack-headings;
+}
+
+.footer-nav-item {
+  cursor: pointer;
+}
+
+.footer-nav-item:hover {
+  color: $link-hover-color;
+}

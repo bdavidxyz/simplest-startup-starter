@@ -1,0 +1,22 @@
+// Config file and project variables
+
+// font stacks
+// $font-stack-common    : 'Lora', sans-serif; // common font
+// $font-stack-headings  : 'Open Sans', sans-serif; // headings font
+$font-stack-common    : sans-serif; // common font
+$font-stack-headings  : sans-serif; // headings font
+
+// color scheme
+$color1    : #555; //base
+$color2    : #fff; //link
+$color3    : #555; //base-background
+$color5    : #07a6ed; // brand primary
+$color4    : darken($color5, 12);//#1EAEDB; // link hover
+
+// $base-color: #555;
+// $link-color: #33C3F0;
+// $base-background : white;
+// // If you don't want any effect on focused/hovered links,
+// // comment variable below or make it equal to either $link-color or false or null
+// $link-hover-color: #287ddd;
+// $brand-primary: #3F93F3;

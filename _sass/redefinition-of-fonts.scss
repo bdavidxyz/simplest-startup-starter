@@ -1,0 +1,38 @@
+$font-stack-common-loaded    : 'Lora'; // common font
+$font-stack-headings-loaded  : 'Open Sans'; // headings font
+
+.fonts-loaded h1, .fonts-loaded .#{$kna-namespace}h1-like {
+  font-family: $font-stack-headings-loaded;
+}
+
+.fonts-loaded h2, .fonts-loaded .#{$kna-namespace}h2-like {
+  font-family: $font-stack-headings-loaded;
+}
+
+.fonts-loaded h3, .fonts-loaded .#{$kna-namespace}h3-like {
+  font-family: $font-stack-headings-loaded;
+}
+
+.fonts-loaded h4, .fonts-loaded .#{$kna-namespace}h4-like {
+  font-family: $font-stack-headings-loaded;
+}
+
+.fonts-loaded h5, .fonts-loaded .#{$kna-namespace}h5-like {
+  font-family: $font-stack-headings-loaded;
+}
+
+.fonts-loaded body {
+  font-family: $font-stack-common-loaded;
+}
+
+.fonts-loaded .pricing-feature {
+  font-family: $font-stack-headings-loaded;
+}
+
+.fonts-loaded .button,
+.fonts-loaded button,
+.fonts-loaded input[type="submit"],
+.fonts-loaded input[type="reset"],
+.fonts-loaded input[type="button"] { 
+  font-family: $font-stack-headings-loaded;
+}

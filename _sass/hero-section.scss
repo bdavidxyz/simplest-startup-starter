@@ -1,0 +1,80 @@
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  transition: background-color 500ms ease;
+  display: inline-block;
+  height: 78px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: $medium-value;
+  font-family: $font-stack-headings;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: $brand-primary;
+  border-color: $brand-primary; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: $link-hover-color;
+  border-color: $link-hover-color; }
+
+.hero-fold-hack {
+  margin-top: 20vh;
+  @include respond-to("small") {
+    margin-top: 5vh;
+  }
+}
+
+button.main-cta {
+ font-size: $medium-value;
+ padding: 0 10px;
+ @include respond-to("tiny-up") {
+  padding: 0 15px;
+ } 
+}
+
+.is-sticky button.main-cta {
+  height: 48px;
+  transition: all 1s ease;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="page-content-container">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <!--startjs-->
+    {% include js-webfont.html %}
+    {% include js-jquery.html %}
+    {% include js-twitter-widget.html %}
+    {% include js-jquery-sticky.html %}
+    {% include js-jquery-scroll-to.html %}
+    {% include js-crisp-im.html %}
+    {% include js-fontfaceobserver.html %}
+    {% include js-custom.html %}
+    <!--endjs-->
+  </body>
+
+</html>

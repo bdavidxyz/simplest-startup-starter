@@ -1,0 +1,137 @@
+
+.menu-section {
+  width: 100%;
+  background-color: transparent;
+  height: 20vh;
+  @include respond-to("small") {
+    height: 1vh;
+  }
+  z-index: 0;
+  transition: all 0.6s ease;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.menu-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 960px;
+  @include respond-to("small") {
+    width: 100%;
+  }
+  height: 100%;
+
+}
+
+.menu-section-container-hamburger {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  width: 100%;
+  height: 66px;
+  margin-bottom: auto;
+}
+
+.menu-section-container-nav {
+  opacity: 0;
+  display: flex;
+  margin-bottom: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  & .item {
+    margin-right: 15px;
+  }
+  transition: opacity 0.8s ease;
+}
+
+.is-sticky.is-expanded .menu-section-container-nav {
+
+}
+
+
+.menu-section-hamburger {
+  margin-top: 2.1rem;
+  display: none;
+}
+
+
+
+.is-sticky .menu-section {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: white;
+  height: 66px;
+  z-index: 0;
+  box-shadow: 0 calc(8px / 2) 8px rgba(0,0,0,.05);
+  transition: all 0.6s ease;
+}
+
+.is-sticky .menu-section-hamburger {
+  display: block;
+  margin-right: 10px;
+}
+
+.is-expanded.is-sticky .menu-section {
+  height: 100%;
+}
+
+.menu-section-items {
+  opacity: 0;
+  transition: all .3s ease .15s;
+}
+
+.is-expanded.is-sticky .menu-section-items {
+  display: flex;
+  opacity: 1;
+  transition: all .3s ease .15s;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.menu-nav-item {
+  margin-bottom: 2vh;
+}
+
+.menu-section {
+
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 6px;
+  height: 6px;
+  width: 35px;
+  background: $base-color;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+}

@@ -1,0 +1,84 @@
+.#{$kna-namespace}mtxl {
+  margin-top: $extra-large-value;
+}
+.#{$kna-namespace}mtxlp {
+  margin-top: $extra-large-plus-value;
+}
+
+.#{$kna-namespace}mtul {
+  margin-top: $ultra-large-value;
+}
+.#{$kna-namespace}mtulp {
+  margin-top: $ultra-large-plus-value;
+}
+
+
+.#{$kna-namespace}pasp {
+  padding: $small-plus-value;
+}
+
+.#{$kna-namespace}pamp {
+  padding: $medium-plus-value;
+}
+
+
+.#{$kna-namespace}xbiggest {
+  font-size: 3em;
+}
+.#{$kna-namespace}xlbiggest {
+  font-size: 4em;
+}
+
+
+@media (min-height: ($tiny + 1)) and (max-height: $small) {
+  .#{$kna-namespace}v-small-visible {
+    display: block !important;
+  }
+}
+
+@media (min-height: ($small + 1)) and (max-height: $large) {
+  .#{$kna-namespace}v-medium-visible {
+    display: block !important;
+  }
+}
+
+@media (min-height: ($large + 1)) {
+  /* layouts for large screens */
+  .#{$kna-namespace}v-large-visible {
+    display: block !important;
+  }
+}
+
+h1, .#{$kna-namespace}h1-like {
+  font-weight: 800;
+}
+
+h3, .#{$kna-namespace}h3-like {
+  @if $font-stack-headings != $font-stack-common {
+    font-family: $font-stack-headings;
+  }
+}
+
+h4, .#{$kna-namespace}h4-like {
+  @if $font-stack-headings != $font-stack-common {
+    font-family: $font-stack-headings;
+  }
+}
+
+.#{$kna-namespace}big {
+  font-size: 1.25em;
+}
+
+
+.Media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Media-figure {
+  margin-right: $small-value;
+}
+
+.Media-body {
+  flex: 1;
+}
