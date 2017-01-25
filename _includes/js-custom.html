@@ -7,13 +7,13 @@
   $('.main-cta').on('sticky-start', function() {
     $('.secondary-cta').css('display', 'none');
     $('.main-cta').css('margin-top', '0.9rem'); // XXX : hacky, indeed
-    $('.main-cta').text('Github');
+    $('.main-cta').text('Like');
     $('body').toggleClass('is-sticky');
   });
   $('.main-cta').on('sticky-end', function() { 
     $('.secondary-cta').css('display', '');
     $('.main-cta').css('margin-top', '');
-    $('.main-cta').text('Get it from Github');
+    $('.main-cta').text('I like it');
     $('body').toggleClass('is-sticky');
     $('body').removeClass("is-expanded");
     $('.menu-section-container-nav').css({display:'none', opacity:0});
