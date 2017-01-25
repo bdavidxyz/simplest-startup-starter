@@ -2108,12 +2108,6 @@ input[type="button"].button-primary:focus {
   background-color: #057cb2;
   border-color: #057cb2; }
 
-.hero-fold-hack {
-  margin-top: 20vh; }
-  @media screen and (max-width: 767px) {
-    .hero-fold-hack {
-      margin-top: 5vh; } }
-
 button.main-cta {
   font-size: 2rem;
   padding: 0 10px; }
