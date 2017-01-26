@@ -3,36 +3,38 @@
 }
 
 .pricing-title {
-  @extend .pam;
-  // @include respond-to("small") {
-  //   @include .pam;
-  // }
+  @extend .pas;
   @extend .bigger;
-  border-bottom: 1px solid lightgray;
   text-align: center;
   text-transform: uppercase;
 }
 
 .pricing-actual {
-  @extend .pas;
+  @extend .pat;
   @extend .italic;
   @extend .big;
   color: grey;
-  border-bottom: 1px solid lightgray;
   text-align: center;
 }
 
 .pricing-why {
   font-weight: bold;
   font-size: $medium-value;
-  border-bottom: 1px dashed lightgray;
-  @extend .pam; 
+  @extend .pas; 
   text-align: center;
 }
 
 .pricing-feature {
   text-align: center;
-  @extend .pas; 
+  @extend .pat; 
   @extend .big;
-  border-bottom: 1px dashed lightgray;
+}
+
+.pricing-feature-plan {
+  @extend .mam; 
+  button {
+    height: 60px;
+
+  }
+  border-bottom: none;
 }
