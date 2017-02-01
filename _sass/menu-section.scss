@@ -95,9 +95,9 @@
 }
 
 .menu-nav-item {
-  margin-bottom: 0;
-  @media all and (orientation: portrait) {
-    margin-bottom: $small-value;
+  margin-bottom: $tiny-value;
+  @media all and (orientation: landscape) and (min-width: 700px) {
+    margin-bottom: $small-plus-value;
   }
 }
 
