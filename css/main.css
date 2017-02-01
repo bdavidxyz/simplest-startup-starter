@@ -1961,7 +1961,7 @@ ul.is-unstyled, ul.unstyled {
 .pasp {
   padding: 1.5rem; }
 
-.pat, .pricing-actual, .pricing-feature {
+.pat, .pricing-actual {
   padding: 0.5rem; }
 
 .patp {
@@ -2095,7 +2095,10 @@ h1, .h1-like {
   cursor: pointer; }
 
 .menu-nav-item {
-  margin-bottom: 2vh; }
+  margin-bottom: 0; }
+  @media all and (orientation: portrait) {
+    .menu-nav-item {
+      margin-bottom: 1rem; } }
 
 .menu-section #nav-toggle {
   cursor: pointer;
@@ -2276,8 +2279,8 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   margin-top: 10px; }
 
 .pricing-section a {
-  height: 48px;
-  line-height: 48px; }
+  height: 78px;
+  line-height: 78px; }
 
 .pricing-title {
   text-align: center;
@@ -2293,7 +2296,8 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   text-align: center; }
 
 .pricing-feature {
-  text-align: center; }
+  text-align: center;
+  padding: 0.25rem; }
 
 .pricing-feature-plan {
   border-bottom: none; }
@@ -2380,7 +2384,7 @@ label > .label-body {
 .contact-section .load-email-enter {
   width: 100%;
   position: relative;
-  z-index: 0;
+  z-index: -1;
   margin-bottom: 1rem;
   text-align: center; }
   @media screen and (min-width: 768px) {
