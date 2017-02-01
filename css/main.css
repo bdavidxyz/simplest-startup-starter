@@ -2275,6 +2275,10 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
 .j-poster-footer {
   margin-top: 10px; }
 
+.pricing-section a {
+  height: 48px;
+  line-height: 48px; }
+
 .pricing-title {
   text-align: center;
   text-transform: uppercase; }
