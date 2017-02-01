@@ -4,10 +4,10 @@
     <title>Simplest Start-up Starter</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>/simplest-startup-starter/</link>
-    <atom:link href="/simplest-startup-starter/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Feb 2017 15:27:30 +0100</pubDate>
-    <lastBuildDate>Wed, 01 Feb 2017 15:27:30 +0100</lastBuildDate>
+    <link>/paul/</link>
+    <atom:link href="/paul/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 01 Feb 2017 16:54:41 +0100</pubDate>
+    <lastBuildDate>Wed, 01 Feb 2017 16:54:41 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
   </channel>
