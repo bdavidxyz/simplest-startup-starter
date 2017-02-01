@@ -3,5 +3,5 @@
 # Properties here will overrides those in _config.yml
 
 
-baseurl: "/paul" # the subpath of your site, e.g. /blog
+baseurl: "/simplest-startup-starter" # the subpath of your site, e.g. /blog
 #google_analytics: "" # example of custom prop you may add : your google analytics ID. You also need to import the JS script to make it work.

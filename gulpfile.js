@@ -123,7 +123,7 @@ gulp.task('optimize-js-prod', ['optimize-css-prod'], function() {
 gulp.task('optimize-html-prod', ['optimize-js-prod'], function() {
 	return gulp.src('_site/**/*.html')
 
-  .pipe(replace(/<link rel=\"stylesheet\" href=\"\/paul\/public\/css\/all.min.css\"[^>]*>/, function(s) {
+  .pipe(replace(/<link rel=\"stylesheet\" href=\"\/simplest-startup-starter\/public\/css\/all.min.css\"[^>]*>/, function(s) {
      var style = fs.readFileSync('_site/public/css/all.min.css', 'utf8');
      return '<style>' + style + '</style>';
  }))
