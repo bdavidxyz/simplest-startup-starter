@@ -95,7 +95,10 @@
 }
 
 .menu-nav-item {
-  margin-bottom: 2vh;
+  margin-bottom: 0;
+  @media all and (orientation: portrait) {
+    margin-bottom: $small-value;
+  }
 }
 
 .menu-section {

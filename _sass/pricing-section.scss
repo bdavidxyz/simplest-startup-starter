@@ -2,6 +2,13 @@
 
 }
 
+.pricing-section {
+  a {
+    height: 78px;
+    line-height: 78px; 
+  }
+}
+
 .pricing-title {
   @extend .pas;
   @extend .bigger;
@@ -26,7 +33,7 @@
 
 .pricing-feature {
   text-align: center;
-  @extend .pat; 
+  padding: $tiny-value / 2; 
   @extend .big;
 }
 

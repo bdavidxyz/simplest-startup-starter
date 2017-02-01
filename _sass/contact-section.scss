@@ -80,7 +80,7 @@ label > .label-body {
 .contact-section .load-email-enter { // XXX : need to append to contact-section to give props enough weight
   width: 100%;
   position: relative; // XXX : correct bug on menu expanded
-  z-index: 0; // XXX : correct bug on menu expanded
+  z-index: -1; // XXX : correct bug on menu expanded
   margin-bottom: $small-value;
   text-align: center;
   @include respond-to("small-up") {
