@@ -2095,10 +2095,10 @@ h1, .h1-like {
   cursor: pointer; }
 
 .menu-nav-item {
-  margin-bottom: 0; }
-  @media all and (orientation: portrait) {
+  margin-bottom: 0.5rem; }
+  @media all and (orientation: landscape) and (min-width: 700px) {
     .menu-nav-item {
-      margin-bottom: 1rem; } }
+      margin-bottom: 1.5rem; } }
 
 .menu-section #nav-toggle {
   cursor: pointer;
