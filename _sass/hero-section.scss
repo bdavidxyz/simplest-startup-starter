@@ -1,5 +1,15 @@
+/**
+*
+*
+* HERO SECTION
+*
+*/
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+a.button {
+  line-height: 78px;
+}
 .button,
 button,
 input[type="submit"],
@@ -8,6 +18,7 @@ input[type="button"] {
   transition: background-color 500ms ease;
   display: inline-block;
   height: 78px;
+  line-height: 78px;
   padding: 0 30px;
   color: #555;
   text-align: center;

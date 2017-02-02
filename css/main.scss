@@ -3,12 +3,26 @@
 ---
 @charset "utf-8";
 
-@import "_vendor/jquery-modal";
-
+/*
+*
+*
+* KNACSS
+*
+*
+*/
 @import "knacss-variables";
 @import "knacss";
 @import "knacss-extension";
 
+
+
+/*
+*
+*
+* CUSTOM CSS
+*
+*
+*/
 @import "any-section";
 @import "menu-section";
 @import "hero-section";

@@ -1,25 +1,48 @@
 <script type="text/javascript">
   console.log('hello, welcome to the simplest start-up starter');
-  $(".main-cta").sticky({
-    responsiveWidth: true,
-    getWidthFrom:'.w150p'
-  });
-  $('.main-cta').on('sticky-start', function() {
-    $('.secondary-cta').css('display', 'none');
-    $('.main-cta').css('margin-top', '0.9rem'); // XXX : hacky, indeed
-    $('.main-cta').text('Join');
-    $('body').toggleClass('is-sticky');
-  });
-  $('.main-cta').on('sticky-end', function() { 
-    $('.secondary-cta').css('display', '');
-    $('.main-cta').css('margin-top', '');
-    $('.main-cta').text('Join mailing list');
-    $('body').toggleClass('is-sticky');
-    $('body').removeClass("is-expanded");
-    $('.menu-section-container-nav').css({display:'none', opacity:0});
-    $('#nav-toggle').removeClass("active");
-  });
 
+/* 
+*
+*
+*
+* HERO SECTION 
+*
+*
+*
+*/ 
+$(".main-cta").sticky({
+  responsiveWidth: true,
+  getWidthFrom:'.w150p'
+});
+$('.main-cta').on('sticky-start', function() {
+  $('.secondary-cta').css('display', 'none');
+  $('.main-cta').css('margin-top', '0.9rem'); // XXX : hacky, indeed
+  $('.main-cta').text('Join');
+  $('body').toggleClass('is-sticky');
+  $('.secondary-cta').css('display','none');
+});
+$('.main-cta').on('sticky-end', function() { 
+  $('.secondary-cta').toggle();
+  $('.secondary-cta').css('display', '');
+  $('.main-cta').css('margin-top', '');
+  $('.main-cta').text('Join mailing list');
+  $('body').toggleClass('is-sticky');
+  $('body').removeClass("is-expanded");
+  $('.menu-section-container-nav').css({display:'none', opacity:0});
+  $('#nav-toggle').css('display','block');
+});
+
+
+
+/* 
+*
+*
+*
+* MENU SECTION 
+*
+*
+*
+*/
 function toggleNavigation() {
 
   if ($('body').hasClass("is-expanded")) {
@@ -40,8 +63,7 @@ function toggleNavigation() {
     $('#nav-toggle').addClass("active");
   }
 
-}
-
+} 
 $(document).ready(function(){
   
   $("#nav-toggle").on("click", function() {
@@ -68,7 +90,15 @@ $(document).ready(function(){
 
 
 
-
+/* 
+*
+*
+*
+* CONTACT SECTION 
+*
+*
+*
+*/
 var $loadEmailButton = $('.load-email-button')[0];
 var $contactForm = $('#contact-form');
 var DEFAULT_TEXT_CONTENT = 'Join the party';
@@ -104,6 +134,16 @@ $contactForm.submit(
   }
 );
 
+
+/* 
+*
+*
+*
+* FONT LOADING 
+*
+*
+*
+*/
 WebFont.load({
   google: {
     families: ['Open Sans:400,700,800', 'Lora:400,700']
@@ -124,6 +164,16 @@ $(document).ready(function(){
   });
 });
 
+
+/* 
+*
+*
+*
+* PRICING SECTION 
+*
+*
+*
+*/
 $(document).ready(function(){
   $('.plan-a').attr('href', 'https://www.payfacile.com/simpleststartupstart/s/plan-a')
   $('.plan-b').attr('href', 'https://www.payfacile.com/simpleststartupstart/s/plan-b')
