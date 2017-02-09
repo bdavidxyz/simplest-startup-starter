@@ -2385,7 +2385,7 @@ label > .label-body {
 .contact-section .load-email-enter {
   width: 100%;
   position: relative;
-  z-index: -1;
+  z-index: 0;
   margin-bottom: 1rem;
   text-align: center; }
   @media screen and (min-width: 768px) {
