@@ -8,9 +8,9 @@
 title: Simplest Start-up Starter
 email: bdavidxyz@gmail.com
 description: > # this means to ignore newlines until "twitter_username:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Simplest Start-up Starter is the most simple template for a landing page. 
+  However, it is strongly focused on everything that a good landing page
+  should achieve : speed, responsiveness, conversion friendly.
 twitter_username: bdavidxyz
 github_username:  bdavidxyz
 
@@ -24,4 +24,5 @@ exclude:
   - gulpfile.js
 
 crisp_im_id: "37379e5a-25bc-4d67-b065-a91fdaef6f83"
-formspree_id: "bdavidxyz@gmail.com"
+formspree_email: "bdavidxyz@gmail.com"
+google_analytics: "UA-79244438-1"
