@@ -3,7 +3,7 @@
 Bare bones HTML landing page template, focused on engagement and conversion.
 ## Demo
 
-See https://github.com/bdavidxyz/simplest-startup-starter
+See https://bdavidxyz.github.io/simplest-startup-starter/
 
 ## Motivation
 
