@@ -7,7 +7,7 @@ See https://github.com/bdavidxyz/simplest-startup-starter
 
 ## Motivation
 
-Blog article soon to be published at http://bdavidxyz.com
+Blog article is here http://bdavidxyz.com/blog/the-simplest-landing-page/
 
 ## Installation, beginner mode
 
