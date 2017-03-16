@@ -179,3 +179,25 @@ $(document).ready(function(){
   $('.plan-c').attr('href', 'https://www.payfacile.com/simpleststartupstart/s/plan-c')
 });
 
+/* Crisp */
+<script type="text/javascript">$crisp=[];CRISP_WEBSITE_ID="68306b54-79ef-4a8c-bcd2-f67eb0761500";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+/* Google Analytics */
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93854002-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+/* Formspree */
+<form action="https://formspree.io/nur.azhar@amaljariah.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
