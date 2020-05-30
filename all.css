@@ -2415,7 +2415,7 @@ label > .label-body {
       border-bottom-right-radius: 5px; } }
 
 .load-email-button:before {
-  content: '\00a0\00a0\00a0\00a0 Thank you';
+  content: '\00a0\00a0\00a0\00a0 Merci';
   position: absolute;
   z-index: 500;
   transform: rotateX(180deg);
