@@ -1,14 +1,12 @@
-console.log('hello, welcome to the simplest start-up starter');
-
-/* 
+/*
 *
 *
 *
-* HERO SECTION 
+* HERO SECTION
 *
 *
 *
-*/ 
+*/
 $(".main-cta").sticky({
   responsiveWidth: true,
   getWidthFrom:'.w150p'
@@ -16,15 +14,15 @@ $(".main-cta").sticky({
 $('.main-cta').on('sticky-start', function() {
   $('.secondary-cta').css('display', 'none');
   $('.main-cta').css('margin-top', '0.9rem'); // XXX : hacky, indeed
-  $('.main-cta').text('Join');
+  $('.main-cta').text('Je partage');
   $('body').toggleClass('is-sticky');
   $('.secondary-cta').css('display','none');
 });
-$('.main-cta').on('sticky-end', function() { 
+$('.main-cta').on('sticky-end', function() {
   $('.secondary-cta').toggle();
   $('.secondary-cta').css('display', '');
   $('.main-cta').css('margin-top', '');
-  $('.main-cta').text('Join mailing list');
+  $('.main-cta').text('Je partage mon travail');
   $('body').toggleClass('is-sticky');
   $('body').removeClass("is-expanded");
   $('.menu-section-container-nav').css({display:'none', opacity:0});
@@ -33,11 +31,11 @@ $('.main-cta').on('sticky-end', function() {
 
 
 
-/* 
+/*
 *
 *
 *
-* MENU SECTION 
+* MENU SECTION
 *
 *
 *
@@ -53,7 +51,7 @@ function toggleNavigation() {
     setTimeout(function () {
       $('.menu-section-container-nav').css({opacity:1});
     }, 500);
-    
+
   }
 
   if ($('#nav-toggle').hasClass("active")) {
@@ -62,9 +60,9 @@ function toggleNavigation() {
     $('#nav-toggle').addClass("active");
   }
 
-} 
+}
 $(document).ready(function(){
-  
+
   $("#nav-toggle").on("click", function() {
     toggleNavigation();
   });
@@ -89,11 +87,11 @@ $(document).ready(function(){
 
 
 
-/* 
+/*
 *
 *
 *
-* CONTACT SECTION 
+* CONTACT SECTION
 *
 *
 *
@@ -134,11 +132,11 @@ $contactForm.submit(
 );
 
 
-/* 
+/*
 *
 *
 *
-* FONT LOADING 
+* FONT LOADING
 *
 *
 *
@@ -164,11 +162,11 @@ $(document).ready(function(){
 });
 
 
-/* 
+/*
 *
 *
 *
-* PRICING SECTION 
+* PRICING SECTION
 *
 *
 *
