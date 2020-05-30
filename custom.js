@@ -14,7 +14,7 @@ $(".main-cta").sticky({
 $('.main-cta').on('sticky-start', function() {
   $('.secondary-cta').css('display', 'none');
   $('.main-cta').css('margin-top', '0.9rem'); // XXX : hacky, indeed
-  $('.main-cta').text('Je partage');
+  $('.main-cta').text("J'envoie");
   $('body').toggleClass('is-sticky');
   $('.secondary-cta').css('display','none');
 });
@@ -22,7 +22,7 @@ $('.main-cta').on('sticky-end', function() {
   $('.secondary-cta').toggle();
   $('.secondary-cta').css('display', '');
   $('.main-cta').css('margin-top', '');
-  $('.main-cta').text('Je partage mon travail');
+  $('.main-cta').text("J'envoie mon travail");
   $('body').toggleClass('is-sticky');
   $('body').removeClass("is-expanded");
   $('.menu-section-container-nav').css({display:'none', opacity:0});
